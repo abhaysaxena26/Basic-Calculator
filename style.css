@@ -99,8 +99,8 @@ form input.operator{
     }
     form input.operator{
         color: #33ffd8;
-    }
-    
-  
+    }   
+}
+    @media screen and (max-width:900px) and (min-width: 600px){
     
 }
