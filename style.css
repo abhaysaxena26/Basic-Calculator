@@ -55,17 +55,17 @@ form input.operator{
     color: #33ffd8;
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 900px) and (min-width: 200px)
 {
     .container{
-        height: 60%;
+        height: 65%;
         width: 70%;
         border-radius: 8px;
         background-color: #3a4452; 
         padding: 12px; 
     }  
     .calculator form input{
-    
+        position: relative;
         border: 0;
         outline: 0;
         width: 50px;
@@ -99,8 +99,10 @@ form input.operator{
     }
     form input.operator{
         color: #33ffd8;
-    }   
-}
-    @media screen and (max-width:900px) and (min-width: 600px){
+    }
+    
+  
     
 }
+
+
