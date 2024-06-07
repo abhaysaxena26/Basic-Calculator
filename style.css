@@ -1,0 +1,106 @@
+*{
+    margin : 0%;
+    padding : 0%;
+    box-sizing : border-box;
+}
+body,html{
+    height : 100%;
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(160, 107, 31);
+}
+.container{
+    height: 79%;
+    width: 25%;
+    border-radius: 10px;
+    background-color: #3a4452; 
+    padding: 10px; 
+}
+.calculator form input{
+    
+    border: 0;
+    outline: 0;
+    width: 62px;
+    height: 62px;
+    margin: 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgb(255,255,255,0.1) ;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    box-shadow: none;
+    font-size: 45px;
+}
+form input.equal{
+    width: 145px;
+    background-color: #fb7c14;
+}
+form input.btn1{
+    color: #33ffd8;
+}
+form input.operator{
+    color: #33ffd8;
+}
+
+@media screen and (max-width: 600px)
+{
+    .container{
+        height: 60%;
+        width: 70%;
+        border-radius: 8px;
+        background-color: #3a4452; 
+        padding: 12px; 
+    }  
+    .calculator form input{
+    
+        border: 0;
+        outline: 0;
+        width: 50px;
+        height: 50px;
+        margin: 2px;
+        cursor: pointer;
+        color: #fff;
+        font-size: 10px;
+        background: transparent;
+        border-radius: 9px;
+        box-shadow: -3px -3px 10px rgb(255,255,255,0.1) ;
+    }
+    form .display{
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 0;
+        
+    }
+    form .display input{
+        text-align: right;
+        flex: 1;
+        box-shadow: none;
+        font-size: 27px;
+    }  
+    form input.equal{
+        width: 100px;
+        background-color: #fb7c14;
+    }
+    form input.btn1{
+        color: #33ffd8;
+    }
+    form input.operator{
+        color: #33ffd8;
+    }
+    
+  
+    
+}
